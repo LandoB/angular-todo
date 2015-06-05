@@ -1,5 +1,13 @@
 body{
 	background-color: #000;
 	color: #fff;
-  text-align: center;
+	text-shadow: 1px 1px #223333;
+	text-align: center;
+	background: url(../images/todo-app-bckgrnd.jpeg) no-repeat center center scroll;
+
+}
+
+input,
+textarea {
+	color:#000;
 }
