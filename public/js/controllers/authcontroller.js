@@ -44,7 +44,7 @@ controllers.controller('AuthCtrl', function ($scope, $http, $rootScope, $locatio
 			success(function (data, status, headers, config) {
 				console.log('you have logged in!', data);
 				$rootScope.rootuser = data.username;
-				$location.path('/todo')
+				$location.path('/taskList')
 			}).
 			error(function (data, status, headers, config) {
 				console.log('login failed!')

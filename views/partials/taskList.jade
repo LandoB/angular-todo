@@ -1,0 +1,15 @@
+div.col-md-12
+	div.alert.alert-success
+		h1 {{message}}
+		p.title(ng-show="tasks") Welcome, {{ name }}! You have {{ tasks.length }} items in your queue.
+	div#tasks.row
+			div.col-sm-12.col-md-4(ng-repeat="task in tasks")
+				div.panel
+					h3.panel-title {{ task.title }}
+					div.panel-body
+						p {{ task.description }}
+						p {{ task.due_date }}
+						div.checkbox
+							label.completed
+								input(type='checkbox', name='completed', value='{{task.completed}}')
+								| Completed

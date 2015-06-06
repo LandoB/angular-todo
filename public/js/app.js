@@ -18,9 +18,13 @@ config(function ($routeProvider, $locationProvider) {
       templateUrl: 'partials/authenticate',
       controller: 'AuthCtrl'
     }).
-    when('/todo', {
-      templateUrl: 'partials/todo',
-      controller: 'TodoCtrl'
+    when('/taskList', {
+      templateUrl: 'partials/taskList',
+      controller: 'ListCtrl'
+    }).
+    when('/addTask', {
+      templateUrl: 'partials/addTask',
+      controller: 'AddCtrl'
     }).
     otherwise({
       redirectTo: '/'

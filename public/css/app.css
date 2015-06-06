@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Reenie+Beanie|Architects+Daughter|Rock+Salt|Special+Elite|Nunito|Inconsolata|Source+Sans+Pro);
+
 body{
 	background-color: #000;
 	color: #fff;
@@ -10,4 +12,44 @@ body{
 input,
 textarea {
 	color:#000;
+	font-size: 10px;
 }
+
+label {
+	color: #8a97a0;
+	text-shadow: none;
+	font-size: 1.5em;
+}
+
+.welcome {
+	font-family: 'Architects Daughter';
+}
+
+.list-group-item {
+	text-shadow: none;
+	color:#fff;
+	background-color: #000;
+	border-color: rgba(0,0,0,.8);
+}
+
+.alert-success {
+	font-size: 1.5em;
+  color: #fafafa;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.completed {
+	color: #fafafa;
+	font-size: 10px;
+}
+
