@@ -26,6 +26,10 @@ config(function ($routeProvider, $locationProvider) {
       templateUrl: 'partials/addTask',
       controller: 'AddCtrl'
     }).
+    when('/editTask', {
+      templateUrl: 'partials/editTask',
+      controller: 'EditCtrl'
+    }).
     otherwise({
       redirectTo: '/'
     });

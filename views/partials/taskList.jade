@@ -8,8 +8,14 @@ div.col-md-12
 					h3.panel-title {{ task.title }}
 					div.panel-body
 						p {{ task.description }}
-						p {{ task.due_date }}
+						p {{ task.due_date | date }}
 						div.checkbox
 							label.completed
 								input(type='checkbox', name='completed', value='{{task.completed}}')
 								| Completed
+							p
+								.glyphicon.glyphicon-pencil(ng-click='edit(task._id)')
+								.glyphicon.glyphicon-trash(ng-click='delete(task._id)')
+
+
+

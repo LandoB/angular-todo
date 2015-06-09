@@ -14,7 +14,10 @@ controllers.controller('AppCtrl', function ($scope, $http) {
 				error(function (data, status, headers, config) {
 					$scope.name = 'Error!';
 				});
-	})
+
+
+	});
+
 
 
 

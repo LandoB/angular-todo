@@ -94,6 +94,7 @@ router.post('/', function (req, res, next) {
 
 
   var mytodo = new Todo(theFormPostData);
+  console.log(mytodo);
 
   mytodo.save(function (err, todo) {
     if (err) {

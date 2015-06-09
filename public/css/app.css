@@ -25,6 +25,12 @@ label {
 	font-family: 'Architects Daughter';
 }
 
+.please {
+	color: #777;
+	text-shadow: 1px 1px #fff;
+	font-size: 1.5em;
+}
+
 .list-group-item {
 	text-shadow: none;
 	color:#fff;
@@ -49,7 +55,34 @@ label {
 }
 
 .completed {
-	color: #fafafa;
+	color: green;
 	font-size: 10px;
 }
 
+.deleted {
+	color: red;
+	font-size: 10px;
+}
+
+.edited {
+	color: blue;
+	font-size: 10px;
+}
+
+.glyphicon {
+	padding: 10px;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #fafafa;
+  border-radius: 0;
+}
+
+.glyphicon-pencil:hover {
+	color: blue;
+}
+
+.glyphicon-trash:hover {
+	color: red;
+}
